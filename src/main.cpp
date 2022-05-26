@@ -209,7 +209,7 @@ int main(int argc, char *argv[])
     // Create three compute sets to run our "algorithms".
     poplar::ComputeSet computeSet0 = graph.addComputeSet("computeSet0");
     poplar::ComputeSet computeSet1 = graph.addComputeSet("computeSet1");
-    poplar::ComputeSet computeSet2 = graph.addComputeSet("computeSet1");
+    poplar::ComputeSet computeSet2 = graph.addComputeSet("computeSet2");
 
     // Add vertices to each compute set.
     for (unsigned i=0; i<num_workers_total; ++i)
